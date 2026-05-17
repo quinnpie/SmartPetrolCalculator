@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.SmartPetrolCalculator"
+        parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- Primary Brand Color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryDark</item>
+
+        <!-- Secondary Accent -->
+        <item name="colorSecondary">@color/colorAccent</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/white</item>
+
+        <!-- IMPORTANT -->
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+
+    <style name="Theme.SmartPetrolCalculator"
+        parent="Base.Theme.SmartPetrolCalculator" />
+
+</resources>
